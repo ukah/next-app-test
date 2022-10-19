@@ -8,7 +8,5 @@ const nextConfig = {
 module.exports = {
   basePath: process.env.GITHUB_ACTIONS && "/next-app-test",
   trailingSlash: true,
-  image: {
-    unoptimized: true,
-  },
+  
 };
